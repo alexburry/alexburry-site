@@ -5,9 +5,12 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <section>
+    <div className="max-w-3xl">
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Blog</h1>
-      <p>Blog is coming soon!</p>
-    </section>
+      <p className="text-break">
+        What is a blog? A place to share ideas? A place to showcase
+        achievements? Or somewhere to chat bollocks. This is probaly the latter.
+      </p>
+    </div>
   );
 }
