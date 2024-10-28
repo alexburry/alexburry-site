@@ -31,7 +31,7 @@ export default function Page() {
         <div className="border border-foreground p-5 rounded-md space-y-2">
           <div className="flex justify-between">
             <h3 className="font-medium text-lg">Online Forum</h3>
-            <Link href="https://github.com/alexburryMyForum>">
+            <Link href="https://github.com/alexburry/MyForum">
               <Github className="h-5 w-5" />
             </Link>
           </div>
