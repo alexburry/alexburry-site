@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Source_Code_Pro } from "next/font/google";
 import { Github } from "lucide-react";
 import { Header } from "@/components/header";
+import { IsometricBackground } from "@/components/isometric-background";
 
 const sourceCodePro = Source_Code_Pro({
   subsets: ["latin"],
@@ -35,6 +36,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <IsometricBackground />
+
           <Header />
 
           <main className="grow flex flex-col items-center justify-center mx-4">
