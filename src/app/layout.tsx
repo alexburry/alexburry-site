@@ -36,8 +36,6 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <IsometricBackground />
-
           <Header />
 
           <main className="grow flex flex-col items-center justify-center mx-4">
